@@ -29,7 +29,7 @@ public class MainActivity extends AppCompatActivity {
         ListView lvUser = (ListView) findViewById(R.id.lvUser);
         lvUser.setAdapter(new UserAdapter(this));
 
-        //ListView注册Click监听 即每个选项被点击后发生什么,此处仅为Toast输出,晚点改成Activity跳转
+        //ListView注册Click监听 即每个选项被点击后发生什么,此处仅为Toast输出,晚点改成Activity跳转=================
         lvUser.setOnItemClickListener(new AdapterView.OnItemClickListener() {
             @Override
             public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
